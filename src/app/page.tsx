@@ -2,15 +2,14 @@
 
 import Head from "next/head";
 
-import Achievement from "@/components/Achievement";
-import Categories from "@/components/Categories";
+import Banner from "@/components/Banner";
 import Companies from "@/components/Companies";
-import Courses from "@/components/Courses";
-import CTA from "@/components/CTA";
-import Feedback from "@/components/Feedback";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import Faq from "@/components/Faq";
+import Features from "@/components/Features";
+import Simple from "@/components/Simple";
+import Table from "@/components/Table";
+import Trade from "@/components/Trade";
+import Work from "@/components/Work";
 
 /**
  * SVGR Support
@@ -30,22 +29,14 @@ export default function HomePage() {
       <Head>
         <title>Hello Apollo theme</title>
       </Head>
-      {/* <Navbar/>
-      <Hero />
-      <Features />
-      <Testimonial />
-      <CallToAction />
-      <Footer /> */}
-
-      <Navbar />
-      <Hero />
+      <Banner />
       <Companies />
-      <Courses />
-      <Achievement />
-      <Categories />
-      <Feedback />
-      <CTA />
-      <Footer />
+      <Work />
+      <Table />
+      <Features />
+      <Simple />
+      <Trade />
+      <Faq />
     </main>
   );
 }
