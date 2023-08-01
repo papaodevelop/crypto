@@ -42,8 +42,8 @@ const Footer = () => {
               className="block h-12 w-20px mb-4"
               src="/images/Logo/logo.svg"
               alt="Crypto-Logo"
-              width={20}
-              height={20}
+              width={200}
+              height={200}
             />
             <h3 className="text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16">
               {" "}
@@ -58,8 +58,8 @@ const Footer = () => {
                     src={items.imgsrc}
                     alt={items.imgsrc}
                     className="footer-icons"
-                    width={20}
-                    height={20}
+                    width={50}
+                    height={50}
                   />
                 </Link>
               ))}
